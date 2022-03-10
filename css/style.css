@@ -463,11 +463,11 @@ footer{
 	display:flex;
 	justify-content: space-around;
 	border-top: 8.8888px solid rgba(0, 0, 0, 0.5);
-	background-color:#77ff6b;
+	background-color:#ffffff;
 }
 footer p{
 	margin:15px 0px;
-	color:#7e7d7dec;
+	color:#000000ec;
 	font-size: 1rem;
 }
 
