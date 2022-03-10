@@ -39,6 +39,7 @@ nav{
     width: 100%;
     z-index: 1;
     background-color: #ffffff;
+	transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
 .logo img{
@@ -596,7 +597,6 @@ display:block;}
 		float:right;
 		padding:28px 20px;
 		position:relative;
-		user-select: none;
 	}
 	nav .menu-icon .nav-icon{
 		background-color:#333333;
