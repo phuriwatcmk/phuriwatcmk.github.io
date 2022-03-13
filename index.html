@@ -12,6 +12,9 @@
 
     <!-- fontAwesom CDN -->
     <script src="https://kit.fontawesome.com/aa6aca0af3.js" crossorigin="anonymous"></script>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+</style>
 
 </head>
 
@@ -25,20 +28,20 @@
                 <img src="img/lunatic-page1.png">
             </a>
             <!--menu-btn-------------->
-		<!-- <input class="menu-btn" type="checkbox" id="menu-btn"> -->
+		<input class="menu-btn" type="checkbox" id="menu-btn">
 		<label class="menu-icon" for="menu-btn">
 			<span class="nav-icon"></span>
 		</label>
             <!-- menu -->
             <ul class="menu">
-                <li><a href="#main">Home</a></li>
+                <li class="clicked"><a href="#main">Home</a></li>
                 <li><a href="#profile1">Profile</a></li>
                 <li><a href="#skills1">Skills</a></li>
                 <li><a href="#project1">PROJECTS</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <!-- Say hi -->
-            <a href="#" class="hey">HELLO !</a>
+            <ul></ul>
         </nav>
         <div id="particles-js"></div>
         <div class="wrapper">
@@ -52,8 +55,8 @@
             </div>
             <!-- text -->
             <div class="main-text">
-                <h1>Hello, I am Phuriwat</h1>
-                <p>Hey, Let's me introduce my self.</p>
+                <h1>Hello, <br>I'm Phuriwat</h1>
+                <p class="test"><b>Hey, Let's me introduce my self.</b></p>
                 <!-- btn -->
                 <a href="#profile1" class="portfolio-btn">Let's go!!</a>
             </div>
@@ -73,23 +76,20 @@
 
         <section id="profile">
             <!-- text -->
+                    <!-- proj img -->
+        <div class="profile-img">
+            <img src="img/img_header1.png" alt="">
+        </div>
             <div class="profile-text">
-                <h1>I' am Saifah</h1>
-                <span>Student</span>
-                <p>     I'am interested in Web Developer(Fullstack) internship
-                    position. Likewise, I have built a few projects by group
-                    project, so I am looking for the company where I can grow
-                    and learn from other experienced teammember.</p>
+                <h1>Saifah</h1>
+                <span>New graduate</span>
+                <p>         Now I graduated bachelor’s degree from Chiang Mai University.    I got an internship experience in software development for six months at Information Technology Service Center of CMU (ITSC). I’m interesting to work in full-time software development. I have a high sense of responsibility and able to work under pressure.</p>
                     <a href="https://www.facebook.com/phuriwat.chaimongkol" aria-label="My Facebook" class="social-icon"><i class="fab fa-facebook"></i></i></a>
                     <a href="https://www.linkedin.com/in/phuriwatcmk/" aria-label="My Linkedin" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
                     <div class="home__scroll">
                         <a href="#skills1" class="home__scroll-link"><i class="fas fa-arrow-up"></i>Scroll down</a>
                     </div> 
             </div>     
-        <!-- proj img -->
-        <div class="profile-img">
-            <img src="img/img_header1.png" alt="">
-        </div>
     </section>
 
 
@@ -101,7 +101,7 @@
             <!-- heading -->
             <div class="skill-heading">
                 <span>My Skills</span>
-                <h2>My experties</h2>
+                <h2>My experience</h2>
                 <p>Hey, I learned some computer language while I studies.</p>
             </div>
             <!-- skill-box-container -->
@@ -110,50 +110,58 @@
                 <div class="skill-box">
                     <!-- icon -->
                     <div class="s-box-icon">
-                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-brands fa-vuejs"></i>
                     </div>
                         <!-- skill-box-text -->
                         <div class="s-box-text">
-                            <strong>Hyper Text Markup Language(HTML5)</strong>
-                            <p>I have an experience in HTML and i completed a few HTML project</p>
+                            <strong>Vue.js / Nuxt.js</strong>
+                            <p>I have an experience in Vue.js framework and i completed a few project</p>
                         </div>
                 </div>
-                <!-- skill-box -->
-                <div class="skill-box">
-                    <!-- icon -->
-                    <div class="s-box-icon">
-                        <i class="fab fa-css3-alt"></i>
-                    </div>
-                    <!-- skill-box-text -->
-                    <div class="s-box-text">
-                        <strong>Cascading Style Sheets(CSS)</strong>
-                        <p>I have an experience in CSS and i completed a few CSS project</p>
-                    </div>
-                </div>
-
+                <img alt="icon" src="img/btn_center_left1.png" width="35" height="62" class="skill__img" />
+                <h3 class="skills__subtitle">HARD Skills</h3>
+                <br><br><br>
+                <h3 class="skills__subtitle">Programming Language Skills</h3><br><br><br>
                 <div class="skills__container">
                     <div class="skills__list">
-                        <h3 class="skills__subtitle">HARD Skills</h3>
-                        <img alt="icon" src="img/btn_center_left1.png" width="35" height="62" />
-                        <span class="skills__name"><i class="fas fa-angle-right"></i>Html</span>
-                        <span class="skills__name"><i class="fas fa-angle-right"></i>Css</span>
-                        <span class="skills__name"><i class="fas fa-angle-right"></i>Javascript</span>
-                        <span class="skills__name"><i class="fas fa-angle-right"></i>JAVA</span>
-                        <span class="skills__name"><i class="fas fa-angle-right"></i>Python</span>
-                        <span class="skills__name"><i class="fas fa-angle-right"></i>PHP</span>
-                        <span class="skills__name"><i class="fas fa-angle-right"></i>SQL</span>
+                        <span class="skills__name"><i class="fas fa-angle-right"></i> HTML5</span>
+                        <span class="skills__name"><i class="fas fa-angle-right"></i> CSS3</span>
+                        <span class="skills__name"><i class="fas fa-angle-right"></i> JavaScript</span>
+                        <span class="skills__name"><i class="fas fa-angle-right"></i> C#</span>
+                        <span class="skills__name"><i class="fas fa-angle-right"></i> Python</span>
+                        <span class="skills__name"><i class="fas fa-angle-right"></i> Dart</span>
+                        <span class="skills__name"><i class="fas fa-angle-right"></i> Basic of Programming language</span>
                     </div>
-                    </div>
+                </div>
+                <div class="skills__containerexp">
+                <h3 class="skills__experienced">Experienced</h3>
+                <h3 class="skills__experienced">Vue2 , Nuxt.js <br><i class="fas fa-angle-right"></i> Vue component, Route, Vuex, Vuetify</h3>
+                <h3 class="skills__experienced">Docker <br><i class="fas fa-angle-right"></i> Docker Dockercompose, Dockerfile</h3>
+                <h3 class="skills__experienced">Git <br><i class="fas fa-angle-right"></i> Git Git with CLI</h3>
+                </div>    
+                </div>
+                <div class="skills__containerexp">
+                <h3 class="skills__experienced">Familiar</h3>
+                <h3 class="skills__experienced">Amazon web services (AWS) <br><i class="fas fa-angle-right"></i> RDS, EC2, Security Group</h3>
+                <h3 class="skills__experienced">Firebase <br><i class="fas fa-angle-right"></i> Firebase cli , Firestore, Hosting</h3>
+                <h3 class="skills__experienced">NGINX <br><i class="fas fa-angle-right"></i> reverse proxy</h3>
+                <h3 class="skills__experienced">Nodejs <br><i class="fas fa-angle-right"></i> express js</h3>
+                <h3 class="skills__experienced">.NET 5 <br><i class="fas fa-angle-right"></i> repository pattern, ORM</h3>
+                <h3 class="skills__experienced">SQL <br><i class="fas fa-angle-right"></i> MySQL</h3>
+                <h3 class="skills__experienced">Line Developer  <br><i class="fas fa-angle-right"></i> Line front-end framework, Line Chat Bot</h3>
+                <h3 class="skills__experienced">Figma  <br><i class="fas fa-angle-right"></i>Basic tools and wireframe</h3>
 
-                    <div class="skills__container">
+                </div>    
+                <div class="skills__container">
                         <div class="skills__list">
+                            <img alt="icon" src="img/btn_center_left2-removebg-preview.png" width="35" height="62" class="skill__img" />
                             <h3 class="skills__subtitle">SOFT Skills</h3>
-                        <img alt="icon" src="img/btn_center_left2-removebg-preview.png" width="35" height="62" />
-                            <span class="skills__name"><i class="fas fa-feather-alt"></i>Communication</span>
-                            <span class="skills__name"><i class="fas fa-feather-alt"></i>Plan Management</span>
-                            <span class="skills__name"><i class="fas fa-feather-alt"></i>Active learning</span><br>
-                            <span class="skills__name"><i class="fas fa-feather-alt"></i>Teamwork</span><br>
-                            <span class="skills__name"><i class="fas fa-feather-alt"></i>Patience</span>
+                        <br><br><br>
+                            <span class="skills__name"><i class="fas fa-feather-alt"></i> Communication</span>
+                            <span class="skills__name"><i class="fas fa-feather-alt"></i> Plan Management</span><br>
+                            <span class="skills__name"><i class="fas fa-feather-alt"></i> Active learning</span><br>
+                            <span class="skills__name"><i class="fas fa-feather-alt"></i> Teamwork</span><br>
+                            <span class="skills__name"><i class="fas fa-feather-alt"></i> Patience</span>
                         </div>
                         </div>
 
@@ -173,10 +181,41 @@
             <span>projects</span>
             <h3>My projects</h3>
         </div>
-        <!-- proj img -->
-        <div class="recent-img">
-            <img src="img/img_header1.png" alt="">
-        </div>
+        <!-- Slider -->
+        <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="img/img_nature_wide.jpg" style="width:100%">
+      <div class="text">Mumu-grill (1st prize)<br>Rhythm game using Java in 204211 Object-Oriented Programming</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="img/img_snow_wide.jpg" style="width:100%">
+      <div class="text">Angular-longfung <br> Music website in 204217: COMP PROG LANGUAGES</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="img/img_mountains_wide.jpg" style="width:100%">
+      <div class="text">I dol in your area <br> Idol E-commerce website in </div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
         <!-- btn -->
         <a href="" class="project-btn">GitHub</a>
 
@@ -197,16 +236,8 @@
             <div class="client-box">
                 <!--img-------->
                 <img src="img/profile.jpg"/>
-            <!--stars/reviews---------->
-            <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
             <!--details/comment------>
-            <p>Tel.062-745-9197</p><br>
+            <p>Tel. 062-745-9197</p><br>
             <p>Email:</p> <p>phuriwat.work@gmail.com</p>
         </div>
         
@@ -225,4 +256,5 @@
 <!-- js -->
 <script type="text/javascript" src="js/particles.min.js"></script>
 <script type="text/javascript" src="js/particlesjs-config.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
 </html>
